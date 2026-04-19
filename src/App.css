@@ -1,0 +1,26 @@
+/* Custom scrollbar for a better look */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #0f111a;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1a1d2e;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #2a2e45;
+}
+
+/* Base styles to ensure Tailwind works correctly */
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
